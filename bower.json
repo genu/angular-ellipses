@@ -1,7 +1,11 @@
 {
-  "name": "angular-truncate",
+  "name": "angular-ellipses",
   "version": "0.1.2",
   "main": ["./src/truncate.js"],
+  "authors": [
+  	{"name": "Brian Matthews"},
+  	{"name": "Eugen Istoc"}
+  ],
   "dependencies": {
     "angular": "~1.2.0"
   }
