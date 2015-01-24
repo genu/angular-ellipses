@@ -5,7 +5,12 @@ add ellipses when needed.
 
 [Demo](http://sparkalow.github.io/angular-truncate/)
 
-Install: `bower install angular-ellipses`
+Install: 
+`bower install angular-ellipses`
+
+Add to module
+
+`angular.module('myApp', ['angular-ellipses'])`
 
 ## How to use angular truncate
 
