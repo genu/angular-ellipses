@@ -17,7 +17,7 @@ Install:
 <script src="truncate.js"></script>
 ```
 
-###Inject the `truncate` filter into your app module.
+###Inject the filter into your app module.
 
 ```javascript
 var myApp = angular.module('myApp', ['angular-ellipses']);
