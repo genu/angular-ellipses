@@ -8,10 +8,6 @@ add ellipses when needed.
 Install: 
 `bower install angular-ellipses`
 
-Add to module
-
-`angular.module('myApp', ['angular-ellipses'])`
-
 ## How to use angular truncate
 
 
@@ -24,7 +20,7 @@ Add to module
 ###Inject the `truncate` filter into your app module.
 
 ```javascript
-var myApp = angular.module('myApp', ['truncate']);
+var myApp = angular.module('myApp', ['angular-ellipses']);
 ```
 
 ###When outputting text, apply the filter.
