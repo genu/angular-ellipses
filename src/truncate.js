@@ -1,4 +1,12 @@
+/**
+ * @namespace angular-ellipses
+ */
 angular.module('angular-ellipses', [])
+    /**
+     * @function characters
+     * @memberOf angular-ellipses.characters
+     * @description Characters filter
+     */
     .filter('characters', function () {
         return function (input, chars, breakOnWord) {
             if (isNaN(chars)) return input;
@@ -22,6 +30,11 @@ angular.module('angular-ellipses', [])
             return input;
         };
     })
+    /**
+     * @function splitcharacters
+     * @memberOf angular-ellipses.splitcharacters
+     * @description splitcharacters filter
+     */
     .filter('splitcharacters', function() {
         return function (input, chars) {
             if (isNaN(chars)) return input;
@@ -34,6 +47,11 @@ angular.module('angular-ellipses', [])
             return input;
         };
     })
+    /**
+     * @function words
+     * @memberOf angular-ellipses.words
+     * @description words filter
+     */
     .filter('words', function () {
         return function (input, words) {
             if (isNaN(words)) return input;
